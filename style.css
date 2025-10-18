@@ -1,0 +1,146 @@
+  body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to bottom right, #f0fff0, #e6ffe6);
+      color: #0a3d0a;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      padding: 2rem;
+      transition: background 0.5s, color 0.5s;
+      min-height: 100vh;
+  }
+
+  body.dark-mode {
+      background: #002d00;
+      color: #ffffff;
+  }
+
+  h1 {
+      margin-bottom: 1rem;
+  }
+
+  .counter {
+      font-size: 3rem;
+      margin: 1rem 0;
+  }
+
+  .btns {
+      display: flex;
+      gap: 1rem;
+      margin-bottom: 2rem;
+  }
+
+  button {
+      padding: 1rem 2rem;
+      font-size: 1.2rem;
+      border-radius: 10px;
+      border: none;
+      cursor: pointer;
+  }
+
+  .increment {
+      background: #4caf50;
+      color: white;
+  }
+
+  .reset {
+      background: #d32f2f;
+      color: white;
+  }
+
+
+  /* Audio Section **/
+
+  .audio-section button.playing {
+      background-color: #4caf50;
+      /* highlight active button */
+      color: white;
+  }
+
+  .audio-section button {
+      margin: 0.5rem;
+      padding: 0.7rem 1.2rem;
+      font-size: 1rem;
+      border-radius: 8px;
+      border: none;
+      cursor: pointer;
+      transition: 0.2s;
+  }
+
+  .audio-section button:hover {
+      opacity: 0.9;
+  }
+
+
+  #modeToggle {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      padding: 0.5rem 1rem;
+      border: 2px solid #4caf50;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: 0.3s;
+  }
+
+  #modeToggle:hover {
+      background-color: #4caf50;
+      color: white;
+  }
+
+  .audio-section {
+      margin-top: 2rem;
+      width: 100%;
+      max-width: 500px;
+      text-align: center;
+  }
+
+  .audio-section button {
+      margin: 0.5rem;
+      padding: 0.7rem 1.2rem;
+      font-size: 1rem;
+      border-radius: 8px;
+      border: none;
+      cursor: pointer;
+      transition: 0.2s;
+  }
+
+  .audio-section button:hover {
+      opacity: 0.7;
+  }
+
+  .audio-section button.playing {
+      background-color: #4caf50;
+      color: white;
+  }
+
+  footer .portfolio {
+      display: flex;
+      justify-content: center;
+
+  }
+
+  .portfolio img {
+      width: 15%;
+      height: 10%;
+      border-radius: 30%;
+  }
+
+  /*
+  #modeToggle {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      padding: 0.5rem 1rem;
+      border: 2px solid #4caf50;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: 0.3s;
+  }
+
+  #modeToggle:hover {
+      background-color: #4caf50;
+      color: white;
+  }
+ */
